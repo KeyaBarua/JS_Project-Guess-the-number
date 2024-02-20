@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Underdog&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Underdog", system-ui;
+  background-color: #232323;
+  /* background-color: #189000; */
+}
+
+header {
+  height: 40vh;
+  position: relative;
+  border-bottom: 4px solid rgb(211, 201, 201);
+}
+
+.btn {
+  width: 8rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  font-family: inherit;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(211, 201, 201);
+}
+
+.btn:hover {
+  background-color: rgb(150, 148, 148);
+}
+
+.again {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+}
+
+.limit {
+  position: absolute;
+  top: 5%;
+  left: 85%;
+  color: rgb(211, 201, 201);
+  font-size: 1.3rem;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 5rem;
+  /* border: 1px solid white; */
+  color: rgb(211, 201, 201);
+  transform: translate(-50%, -50%);
+}
+
+.output {
+  /* height: 6rem; */
+  width: 8rem;
+  font-size: 4rem;
+  font-weight: bold;
+  background-color: rgb(211, 201, 201);
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 65vh;
+  font-size: 2rem;
+  color: rgb(211, 201, 201);
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50rem;
+  /* border: 1px solid white; */
+}
+
+.right {
+  /* border: 1px solid white; */
+  width: 50rem;
+}
+
+.guess {
+  width: 10rem;
+  font-size: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  background: none;
+  color: rgb(211, 201, 201);
+  border: 3px solid rgb(211, 201, 201);
+  margin-bottom: 2rem;
+}
+
+.message {
+  margin-bottom: 1rem;
+}
+
+.label-score {
+  margin-bottom: 0.5rem;
+}
+
+.score,
+.highscore {
+  margin-left: 1rem;
+}
